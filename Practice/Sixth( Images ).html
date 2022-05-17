@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- JS Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <title>Images</title>
+</head>
+<body>
+    <!-- Image Shapes -->
+    <div class="container border">
+        <h1>Image Shapes</h1>
+        <div class="row">
+            <div class="col">
+                <img src="./Images/Me.jpg" class="rounded" alt="" width="200px" height="200px">
+            </div>
+            <div class="col">
+                <img src="./Images/Me3.jpg" class="rounded-circle" alt="" width="200px" height="200px">
+            </div>
+            <div class="col">
+                <img src="./Images/Me1.jpg" class="img-thumbnail" alt="" width="200px" height="200px">
+            </div>
+        </div>
+    </div>
+    <!-- Aligning Image -->
+    <div class="container mt-5 border">
+        <h1>Aligning Image</h1>
+        <div class="row">
+            <div class="col">
+                <img src="./Images/Me.jpg" class="rounded float-start" alt="" width="200px" height="200px">
+            </div>
+            <div class="col">
+                <img src="./Images/Me1.jpg" class="img-thumbnail float-end" alt="" width="200px" height="200px">
+            </div>
+        </div>
+    </div>
+
+    <!-- Centered Image -->
+    <div class="container mt-5 border">
+        <h1>Centered Image</h1>
+        <img src="./Images/Me3.jpg" class="rounded-circle mx-auto d-block" alt="" width="200px" height="200px">
+    </div>
+
+    <!-- Responsive Image -->
+    <!-- 
+        Images come in all sizes. So do screens. Responsive images automatically adjust to fit the size of the screen.
+
+        Create responsive images by adding an .img-fluid class to the <img> tag. The image will then scale nicely to the parent element.
+
+        The .img-fluid class applies max-width: 100%; and height: auto; to the image:
+
+     -->
+    <div class="container mt-5 border">
+         <h1>Responsive Image</h1>
+         <img src="./Images/dress.jpg" class="img-fluid" alt="Kanha Ji">
+    </div>
+
+</body>
+</html>
